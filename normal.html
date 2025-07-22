@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal-solution-website</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="mx-auto">
+    <header class="px-4 md:px-8 lg:px-16">
+      <!-- Navbar -->
+      <nav
+        class="flex flex-col gap-4 md:flex-col lg:flex-row justify-between items-center mt-6"
+      >
+        <h2
+          class="font-extrabold text-2xl md:text-3xl lg:text-[35px] text-center"
+        >
+          <i class="fa-solid fa-gavel"></i> Justice
+        </h2>
+
+        <!-- Nav Links -->
+        <ul
+          class="flex flex-col md:flex-col lg:flex-row items-center justify-center gap-4 lg:gap-6 font-normal text-base text-gray-500"
+        >
+          <li><a href="">Home</a></li>
+          <li>
+            <a href=""
+              >Services <i class="fa-solid fa-greater-than text-xs pl-1"></i
+            ></a>
+          </li>
+          <li>
+            <a href=""
+              >Cases <i class="fa-solid fa-greater-than text-xs pl-1"></i
+            ></a>
+          </li>
+          <li>
+            <a href=""
+              >Blog <i class="fa-solid fa-greater-than text-xs pl-1"></i
+            ></a>
+          </li>
+          <li>
+            <a href=""
+              >Contact Us <i class="fa-solid fa-greater-than text-xs pl-1"></i
+            ></a>
+          </li>
+        </ul>
+
+        <!-- CTA Button -->
+        <button
+          class="rounded-lg font-semibold text-base md:text-lg text-white w-full max-w-xs md:max-w-sm lg:w-[220px] h-[50px] lg:h-[64px] bg-[#B68C5A]"
+        >
+          Free Consultation
+        </button>
+      </nav>
+
+      <!-- Banner -->
+      <div class="relative mt-10">
+        <img
+          class="w-full h-auto max-h-[550px] object-cover"
+          src="images/banner.png"
+          alt="banner"
+        />
+
+        <!-- Banner Text Overlay -->
+        <div
+          class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center px-4 text-center"
+        >
+          <h1
+            class="text-white font-extrabold text-2xl md:text-4xl lg:text-[35px] leading-tight"
+          >
+            We Provide Effective <br />
+            Legal Solutions
+          </h1>
+          <p class="mt-4 text-white text-sm md:text-base">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority <br class="hidden md:block" />
+            have suffered alteration in some form, by injected humour.
+          </p>
+
+          <!-- Search Box -->
+          <div
+            class="mt-6 flex flex-col md:flex-row items-center gap-4 w-full max-w-xl"
+          >
+            <input
+              placeholder="Search your service"
+              class="w-full px-4 py-3 rounded-lg outline-none"
+              type="search"
+            />
+            <button
+              class="w-full md:w-[150px] h-[50px] bg-[#B68C5A] text-white font-semibold rounded-lg text-base"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- main section -->
+    <main class="mt-10 px-4 md:px-8 lg:px-16">
+      <!-- Main content goes here -->
+    </main>
+  </body>
+</html>
