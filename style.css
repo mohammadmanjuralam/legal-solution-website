@@ -1,1 +1,7 @@
 @import "tailwindcss";
+<<<<<<< HEAD
+=======
+* {
+  box-sizing: border-box;
+}
+>>>>>>> 425f357 (added main card section)
